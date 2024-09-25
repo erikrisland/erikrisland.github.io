@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #d9d9d9;
+}
+
+.card {
+  height: 100%;
+  padding: 0;
+  border: none;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-body img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.card-body h5,
+.card-body p {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.product-card {
+  margin-left: 4px;
+  margin-right: 4px;
+  flex: 1;
+}
+
+.a-oferta {
+
+background-color: #9e0000;
+  color: white;
+  margin: 2px;
+  
+}
+
+.a-oferta:hover {
+  background-color: #9e0000;
+  color: white;
+  margin: 2px;
+}
+
+.card-text-oferta {
+
+  color: #9e0000;
+  
+}
